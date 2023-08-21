@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import "./index.css";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <section className="navbar-bg">
+      <section className="navbar-bg p-3">
         <nav className="navbar navbar-expand-lg navbar">
           <div className="container">
             <a className="navbar-brand" href="#">
