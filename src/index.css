@@ -537,39 +537,3 @@ footer .main-hero-para {
   border-color: #189cf0;
   color: #189cf0;
 }
-
-@media only screen and (max-width: 480px) {
-  .notfound .notfound-404 h1 {
-    font-size: 162px;
-  }
-  .notfound h2 {
-    font-size: 26px;
-  }
-}
-
-/* --------------------------------- 404 Error Page Section  Ends
-                        -------------------------------------------------------*/
-
-/* --------------------------------- responsive media queries  
-                        -------------------------------------------------------*/
-@media (min-width: 1500px) {
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    max-width: 1500px !important;
-  }
-}
-
-@media (min-width: 1400px) {
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    max-width: 1400px;
-  }
-}
